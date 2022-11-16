@@ -1,0 +1,5 @@
+
+  <input (keyup)="onUppdateUserName()" type="text" class="border mt-3" [(ngModel)]="name" />
+  <p>{{ name }}</p>
+  <button [disabled]="isDisabled" type="button" class="px-5 py-3 bg-blue-600 text-white leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg transition duration-150 ease-in-out" (click)="clearName()">Send</button>
+
