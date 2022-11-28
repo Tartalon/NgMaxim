@@ -23,6 +23,5 @@ export class UsernameComponent implements OnInit {
 
   clearName() {
     this.name = '';
-  }
-  
+  } 
 }
